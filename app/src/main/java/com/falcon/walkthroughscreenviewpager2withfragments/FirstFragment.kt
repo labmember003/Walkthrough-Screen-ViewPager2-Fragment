@@ -112,14 +112,14 @@ class FirstFragment : Fragment() {
                 imageView.setImageDrawable(
                     ContextCompat.getDrawable(
                         requireContext().applicationContext,
-                        R.drawable.indicator_inactive_background
+                        R.drawable.indicator_active_background
                     )
                 )
             } else {
                 imageView.setImageDrawable(
                     ContextCompat.getDrawable(
                         requireContext().applicationContext,
-                        R.drawable.indicator_active_background
+                        R.drawable.indicator_inactive_background
                     )
                 )
             }
